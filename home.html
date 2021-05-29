@@ -1,0 +1,127 @@
+<!-- 
+	Author 	     : Enggal Alfrian
+	Rilis  	     : 29/10/2020
+	Project Name : Layanan Katering Enggal
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Katering Enggal</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<!--1. Navbar-->
+	<div id="menu_web">
+		<a href="#judul_gambar" class="menu">Home</a>
+		<a href="#tentang_kami" class="menu">About</a>
+		<a href="#menu_kami" class="menu">Menu</a>
+		<a href="#kontak_kami" class="menu">Contact</a>
+	</div>
+
+	<!--2. Header-->
+	<div id="homepage">
+		<img src="img/Background.jpg" alt="Waiter Professional" width="1349" height="610">
+		<p id="judul_gambar"> Katering Enggal</p>
+	</div>
+
+	<!--3.  Page Content-->
+	<!--3.1 About Section-->
+	<div id="tentang_kami">
+		<img src="img/tentang katering.jpg" alt="Tentang Katering" height="620" width="500" id="gambar_tentang">
+		<h1 id="judul_about">Tentang Kami</h1>
+		<p id="tahun_berdiri">Berdiri sejak tahun 1999</p>
+		<p id="deskripsi">Katering Enggal adalah perusahaan yang bergerak dalam bidang katering dengan berbagai pilihan menu Indonesia, China, Jepang maupun Barat. Namun sesuai merek yang diusung, yaitu Katering Enggal, kami lebih memfokuskan pada jenis makanan daerah khas Indonesia dengan pilihan yang lengkap, dari sabang sampai merauke.</p>
+		<p id="keterangan_tambahan">Usaha Katering Enggal dimulai oleh dua personel yang sangat berpengalaman dalam dunia bisnis, yaitu Enggal Alfrian yang merupakan Doktor di Bidang Ekonomi dan Bisnis dari Lulusan Universitas Oxford, serta Bapak Sugeng Hariyadi yang merupakan ex- President Direktur dari Enggal seafood restaurant. Kombinasi dari latar belakang masing-masing dapat ditebak akhirnya melahirkan usaha Pesona Katering Nusantara dengan filosofi bisnis “makanan lezat berkualitas dengan harga terjangkau”.</p>
+	</div>
+
+	<!--3.2 Menu Section-->
+	<div id="menu_kami">
+		<img src="img/Menu Katering.jpg" alt="Menu Katering" height="580" width="500" id="gambar_menu">
+		<h1 id="judul_menu">Menu Kami</h1>
+		<p id="menu_pertama">MEAT MONSTA</p>
+		<p id="keterangan_pertama">Sosis Frankfurter, Daging Sapi Asap, Daging Sapi Cincang, Jamur, Keju Mozzarella, Saus Keju, Beef Bits</p>
+		<p id="menu_kedua">CHICKEN ROYALE</p>
+		<p id="keterangan_kedua">Chicken Stick, Chicken Popcorn, Potato Wedges dan Garlic Bread</p>
+		<p id="menu_ketiga">BEEF LASAGNA</p>
+		<p id="keterangan_ketiga">Pasta Lasagna Panggang Berlapis Daging Sapi Cincang, Saus Krim Putih</p>
+		<p id="menu_keempat">CHEESE BEEF FUSILLI</p>
+		<p id="keterangan_keempat">Pasta Fusilli Panggang, Saus Keju Cheddar dan Beef Bits</p>
+	</div>
+
+	<!--3.3 Contact Section-->
+	<div id="kontak_kami">
+		<h1 id="judul_kontak">Kontak</h1>
+		<p id="informasi_kontak">Kami menyediakan pelayanan penuh untuk fasilitas katering baik untuk beberapa event, event besar maupun event kecil. Kami mengerti kebutuhan anda dan kami siap menyajikan makanan yang terbaik baik dari segi tampilan maupun rasa.</p>
+		<p id="alamat_kontak">Alamat: Perumahan VI PT. GMP, Kelurahan Mataram Udik, Kecamatan Bandar Mataram, Lampung Tengah.</p>
+		<p id="pemesanan">Pemesanan hub : Whatsapp: 0822 9928 5953 | email: katering_enggal@kateringenggal.com --</p><br>
+		<h2 id="judul_hubungi">Hubungi Kami</h2>
+		<p id="keterangan_hubungi">Anda juga dapat menghubungi kami dengan mengisi form dibawah ini :</p>
+
+		<form id="form_hubungi">
+			<table>
+				<tr>
+					<td>
+						<label for="Nama">Nama Lengkap</label>
+					</td>
+					<td>
+						<label>:</label>
+					</td>
+					<td>
+						<input type="text" placeholder="Isikan Nama Lengkap" class="field_input" id="Nama" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="Email">Email</label>
+					</td>
+					<td>
+						<label>:</label>
+					</td>
+					<td>
+						<input type="email" placeholder="Isikan Email" class="field_input" id="Email" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="No_hp">Nomer Handphone</label>
+					</td>
+					<td>
+						<label>:</label>
+					</td>
+					<td>
+						<input type="text" placeholder="Isikan Nomer Handphone" class="field_input" id="No_hp" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="Isi_pesan">Pesan</label>
+					</td>
+					<td>
+						<label>:</label>
+					</td>
+					<td>
+						<textarea cols="100" rows="15" id="Isi_pesan" required></textarea>
+					</td>
+				</tr>
+
+				<tr>
+					<td></td>
+					<td></td>
+					<td>
+						<button id="tombol_submit" name="kirim" >Kirim Pesan</button>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+
+	<!--Footer-->
+	<div id="footer">
+		<p id="Copyright">&copy; Copyright by Enggal Alfrian. 2020.</p>
+	</div>
+
+</body>
+</html>

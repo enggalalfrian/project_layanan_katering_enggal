@@ -1,0 +1,308 @@
+* {
+	margin: 0px;
+}
+
+body {
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 16px;
+}
+
+
+/*Navbar*/
+/*start*/
+
+#menu_web {
+	margin-top: 15px;
+	margin-bottom: 20px;
+	margin-left: 900px;
+	margin-right: 75px;
+	letter-spacing: 5px;
+}
+
+.menu{
+	margin-left: 20px;
+	text-decoration: none;
+	color: grey;
+}
+
+.menu:hover{
+	color:black;
+}
+
+/*end*/
+
+/*Header*/
+/*start*/
+
+#judul_gambar{
+	font-size: 20px;
+	z-index: 2px;
+	position: absolute;
+	top: 13px;
+	left: 75px;
+	color: grey;
+	letter-spacing: 5px;
+}
+
+/*end*/
+
+/*Page Content*/
+/*1. About Section*/
+/*start*/
+
+#tentang_kami{
+	padding-top:  65px;
+	padding-bottom: 65px;
+	padding-left: 115px;
+	padding-right: 115px;
+}
+
+#gambar_tentang{
+	float: right;
+	margin-left: 85px;
+}
+
+#judul_about{
+	text-align: center;
+	font-size: 34px;
+	font-family: sans-serif;
+	color: #292727;
+	letter-spacing: 3px;
+	margin-top: 15px;
+}
+
+#tahun_berdiri{
+	text-align: center;
+	font-size: 18px;
+	font-family: sans-serif;
+	color: #292727;
+	letter-spacing: 3px;
+	margin-top: 40px;
+}
+
+#deskripsi{
+	margin-top: 20px;
+	font-size: 16px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	line-height: 30px;
+}
+
+#keterangan_tambahan{
+	margin-top: 20px;
+	font-size: 16px;
+	font-family: sans-serif;
+	color: #2c2f33;
+	letter-spacing: 1px;
+	line-height: 30px;	
+}
+
+/*end*/
+
+/*2. Menu Section*/
+/*start*/
+
+#menu_kami{
+	padding-top:  65px;
+	padding-bottom: 65px;
+	padding-left: 115px;
+	padding-right: 115px;
+}
+
+#gambar_menu{
+	float: left;
+	margin-right: 85px;
+}
+
+#judul_menu{
+	text-align: center;
+	font-size: 34px;
+	font-family: sans-serif;
+	color: #292727;
+	letter-spacing: 3px;
+	margin-top: 15px;
+}
+
+#menu_pertama{
+	margin-top: 40px;
+	font-size: 18px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	line-height: 30px;
+}
+
+#keterangan_pertama{
+	margin-top: 10px;
+	font-size: 16px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	line-height: 30px;
+	color: #2c2f33;
+}
+
+#menu_kedua{
+	margin-top: 40px;
+	font-size: 18px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	line-height: 30px;
+}
+
+#keterangan_kedua{
+	margin-top: 10px;
+	font-size: 16px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	line-height: 30px;
+	color: #2c2f33;
+}
+
+#menu_ketiga{
+	margin-top: 40px;
+	font-size: 18px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	line-height: 30px;
+}
+
+#keterangan_ketiga{
+	margin-top: 10px;
+	font-size: 16px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	line-height: 30px;
+	color: #2c2f33;
+}
+
+#menu_keempat{
+	margin-top: 40px;
+	font-size: 18px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	line-height: 30px;
+}
+
+#keterangan_keempat{
+	margin-top: 10px;
+	font-size: 16px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	line-height: 30px;
+	color: #2c2f33;
+}
+
+/*end*/
+
+/*3. Contact Section*/
+/*start*/
+
+#kontak_kami{
+	padding-top:  65px;
+	padding-bottom: 65px;
+	padding-left: 115px;
+	padding-right: 115px;
+}
+
+#judul_kontak{
+	font-size: 34px;
+	font-family: sans-serif;
+	color: #292727;
+	letter-spacing: 3px;
+}
+
+#informasi_kontak{
+	margin-top: 40px;
+	font-size: 16px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	line-height: 30px;
+}
+
+#alamat_kontak{
+	margin-top: 20px;
+	font-size: 16px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	line-height: 30px;
+}
+
+#pemesanan{
+	font-size: 16px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	line-height: 30px;
+}
+
+#judul_hubungi{
+	margin-top: 40px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+}
+
+#keterangan_hubungi{
+	margin-top: 20px;
+	font-size: 16px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+
+#form_hubungi{
+	margin-top: 20px;
+}
+
+label{
+	font-size: 16px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+}
+
+
+.field_input{
+	width: 98%;
+	padding: 5px;
+}
+
+#tombol_submit{
+	margin-top: 30px;
+	width: 20%;
+	padding: 10px;
+	background-color: #edf4ed;
+	cursor: pointer;
+	border: 1px solid grey;
+	border-radius: 5px;
+	width: 100px;
+}
+
+#tombol_submit:hover{
+	margin-top: 30px;
+	width: 20%;
+	padding: 10px;
+	background-color: #3a5795;
+	color: #edf4ed;
+	cursor: pointer;
+	border: 1px solid grey;
+	border-radius: 5px;
+	width: 100px;
+}
+
+/*end*/
+
+/*Footer*/
+/*start*/
+
+#footer{
+	padding-top:  65px;
+	padding-bottom: 65px;
+	padding-left: 115px;
+	padding-right: 115px;
+	background-color: #edf4ed;
+}
+#Copyright{
+	font-size: 16px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+/*end*/
